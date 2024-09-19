@@ -1,0 +1,6 @@
+# I've had some issues running FastQC in batch files, so below is some shell code instead
+
+module load FastQC
+
+# specify location and names of files, using regex if you want to specify more than one file, and the output folder to store QC files
+fastqc /home/df555/project/20231208-trimmed/[0-9]*_paired.fq.gz -o /home/df555/project/20231208-FastQC
