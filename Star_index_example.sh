@@ -18,7 +18,9 @@ module load StdEnv
 #uncomment the below if you need to get the genome file still - you only need to do this once!
 #cd /home/df555/palmer_scratch/Emily/genome/
 #wget ftp://ftp.ncbi.nlm.nih.gov/genomes/all/GCA/000/001/405/GCA_000001405.15_GRCh38/seqs_for_alignment_pipelines.ucsc_ids/GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
+#wget https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_36/gencode.v36.annotation.gtf.gz
 #gunzip GCA_000001405.15_GRCh38_no_alt_analysis_set.fna.gz
+#gunzip gencode.v36.annotation.gtf.gz
 
 module load GCC/12.2.0
 module load STAR/2.7.11a-GCC-12.2.0
